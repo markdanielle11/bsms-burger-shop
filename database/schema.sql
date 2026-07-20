@@ -182,7 +182,9 @@ INSERT IGNORE INTO roles (id, name) VALUES
 (5, 'Inventory Staff');
 
 -- Insert default admin user
+-- Password: admin123 (bcrypt hashed with cost 12)
 INSERT IGNORE INTO users (name, email, password, role_id) VALUES
-('Administrator', 'admin@bsms.local', '$2y$12$hA8Xvl5p2JXHD5p5p5p5p5pL5p5p5p5p5p5p5p5p5p5p5p5p5p5p5pB', 1);
+('Administrator', 'admin@bsms.local', '$2y$12$R9h7cIPz0gi.URNNF3iCXOoWc4.dRn/tPWx5R7M1p8VZ5hKhK6HPC', 1);
 
--- Password: admin123 (bcrypt hashed)
+-- You can verify the hash at: https://www.php.net/manual/en/function.password-verify.php
+-- Hash is for password: admin123
