@@ -1,6 +1,6 @@
 <aside class="sidebar">
     <div class="sidebar-header">
-        <h1 class="logo">🍔 BSMS</h1>
+        <h1 class="logo">🍔 PrimeBurger</h1>
     </div>
     <nav class="sidebar-menu">
         <ul>
