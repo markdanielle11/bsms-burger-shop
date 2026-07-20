@@ -1,4 +1,4 @@
-# 🍔 BSMS - Burger Shop Management System
+# 🍔 PrimeBurger - Burger Shop Management System
 **Production-Ready | Localhost | PHP + JavaScript + CSS**
 
 A complete, modern burger shop management system built with **vanilla PHP, JavaScript, and CSS** - no frameworks required. Deployed locally on your server.
@@ -41,12 +41,12 @@ A complete, modern burger shop management system built with **vanilla PHP, JavaS
 
 1. **Extract to htdocs**
    ```
-   C:\xampp\htdocs\bsms-burger-shop\
+   C:\xampp\htdocs\primeburger\
    ```
 
 2. **Create database**
    - Open phpMyAdmin: http://localhost/phpmyadmin
-   - Create database: `bsms_db`
+   - Create database: `primeburger_db`
    - Import: `database/schema.sql`
 
 3. **Configure application**
@@ -57,19 +57,19 @@ A complete, modern burger shop management system built with **vanilla PHP, JavaS
 
 4. **Access application**
    ```
-   http://localhost/bsms-burger-shop
+   http://localhost/primeburger
    ```
 
 ### Default Login
 ```
-Email: admin@bsms.local
+Email: admin@primeburger.local
 Password: admin123
 ```
 
 ## 📁 Folder Structure
 
 ```
-bsms-burger-shop/
+primeburger/
 ├── index.php
 ├── config/
 │   ├── database.php
