@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - PrimeBurger</title>
+    <title>Login - BSMS</title>
     <link rel="stylesheet" href="<?php echo PUBLIC_URL; ?>/css/style.css">
 </head>
 <body class="login-page">
     <div class="login-container">
         <div class="login-box">
             <div class="login-logo">
-                <h1>🍔 PrimeBurger</h1>
+                <h1>🍔 BSMS</h1>
                 <p>Burger Shop Management System</p>
             </div>
 
@@ -21,7 +21,7 @@
             <form method="POST" class="login-form">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required placeholder="admin@primeburger.local">
+                    <input type="email" id="email" name="email" required placeholder="admin@bsms.local">
                 </div>
 
                 <div class="form-group">
@@ -33,7 +33,7 @@
             </form>
 
             <div class="login-footer">
-                <p>Default: admin@primeburger.local / admin123</p>
+                <p>Default: admin@bsms.local / admin123</p>
             </div>
         </div>
     </div>
