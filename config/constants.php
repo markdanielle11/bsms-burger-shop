@@ -1,11 +1,11 @@
 <?php
 
 /**
- * PrimeBurger - Application Constants
+ * BSMS - Application Constants
  */
 
 // Application
-define('APP_NAME', 'PrimeBurger - Burger Shop Management System');
+define('APP_NAME', 'BSMS - Burger Shop Management System');
 define('APP_VERSION', '1.0.0');
 define('APP_ENV', getenv('APP_ENV') ?: 'development');
 
@@ -19,7 +19,7 @@ define('PUBLIC_PATH', ROOT_PATH . '/public');
 define('UPLOADS_PATH', PUBLIC_PATH . '/uploads');
 
 // URLs
-define('BASE_URL', getenv('APP_URL') ?: 'http://localhost/primeburger');
+define('BASE_URL', getenv('APP_URL') ?: 'http://localhost/bsms-burger-shop');
 define('PUBLIC_URL', BASE_URL . '/public');
 define('API_URL', BASE_URL . '/api');
 
@@ -48,7 +48,7 @@ define('PERM_ADMIN', 'system_admin');
 
 // Session
 define('SESSION_TIMEOUT', intval(getenv('SESSION_TIMEOUT') ?: 86400));
-define('SESSION_COOKIE_NAME', 'primeburger_session');
+define('SESSION_COOKIE_NAME', 'bsms_session');
 
 // Currency
 define('CURRENCY_CODE', getenv('CURRENCY_CODE') ?: 'PHP');
