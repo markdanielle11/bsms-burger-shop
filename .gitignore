@@ -1,0 +1,33 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# PHP
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs
+error_log
+error_logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+temp/
+cache/

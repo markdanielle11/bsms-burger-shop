@@ -1,0 +1,27 @@
+# Enable mod_rewrite
+RewriteEngine On
+RewriteBase /bsms-burger-shop/
+
+# Remove trailing slashes from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ $1 [L,R=301]
+
+# Route all requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?route=$1 [QSA,L]
+
+# Security headers
+<FilesMatch "\.php$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Prevent directory listing
+Options -Indexes
+
+# Disable access to sensitive files
+<FilesMatch "\.(env|sql|json)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
